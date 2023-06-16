@@ -1,0 +1,74 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+
+img{
+    float: left;
+    max-height: 200px;
+    max-width: 200px;
+    margin-right: 50px;
+}
+
+h1{
+    font-size: 48px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.skills{
+    max-height: 300px;
+    flex-wrap: wrap-reverse;
+}
+
+.summary > p {
+    text-align: center;
+    margin: 0;
+}
+
+.profiles{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.profiles a{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.profiles a{
+    justify-content: space-between;
+}
+
+.extra-info li{
+    list-style: none;
+}
+
+.extra-info ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+.column{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
