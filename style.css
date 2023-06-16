@@ -53,8 +53,32 @@ h3{
     font-size: 20px;
 }
 
-.profiles a{
-    justify-content: space-between;
+
+.column{
+    float: left;
+}
+
+.experience{
+    max-width: 73%;
+}
+
+.experience > h3{
+    text-align: left;
+}
+
+.skills{
+    float: right;
+    width: 25%; 
+}
+
+.skills > h3{
+    text-align: left;
+}
+
+
+.certs, .education, .awards{
+    width: 33%;
+    text-align: center;;
 }
 
 .extra-info li{
@@ -66,9 +90,3 @@ h3{
     margin: 0;
 }
 
-
-.column{
-    float: left;
-    width: 33.3%;
-    text-align: center;
-}
